@@ -1,0 +1,78 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+
+h1
+{
+	text-align: center;
+}
+
+header
+{
+
+	font-style: italic;
+	text-align: center;
+	height: 100px;
+	padding: 5px;
+	box-shadow: 0px 5px 6px black;
+	margin-bottom: 10px;
+}
+
+section
+{
+	border-radius: 15px;
+	background-color: rgba(0,0,0,0.25);
+
+	font-size: 140%;
+	text-align: center;
+	width: 700px;
+	margin: auto;
+}
+
+aside
+{
+	border-radius: 15px 7px 15px 7px;
+	background-color: rgba(0,0,0,0.25);
+	font-style:italic;
+	font-size: 80%;
+	width: 250px;
+}
+
+nav
+{
+	padding: 15px;
+	border-radius: 15px 7px 15px 7px;
+	background-color: rgba(0,0,0,0.25);
+	width: 250px;
+}
+
+#Centre_de_page
+{
+	background: url('Images/Mauna_kea.jpg') center;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#Pied_de_page
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Copyright 
+{
+	text-align: right;
+	padding-top: 120px;
+}
+
+#Sommaire_photos
+{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 200px;
+	margin-right: 200px;
+}
