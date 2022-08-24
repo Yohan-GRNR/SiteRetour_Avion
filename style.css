@@ -2,6 +2,7 @@ body
 {
 	background-color: black;
 	color: white;
+
 }
 
 h1
@@ -14,10 +15,8 @@ header
 
 	font-style: italic;
 	text-align: center;
-	height: 100px;
+	height: 80px;
 	padding: 5px;
-	box-shadow: 0px 5px 6px black;
-	margin-bottom: 10px;
 }
 
 section
@@ -27,8 +26,9 @@ section
 
 	font-size: 140%;
 	text-align: center;
-	width: 700px;
-	margin: auto;
+	width: 750px;
+	height: 200px;
+
 }
 
 aside
@@ -36,28 +36,81 @@ aside
 	border-radius: 15px 7px 15px 7px;
 	background-color: rgba(0,0,0,0.25);
 	font-style:italic;
+	text-align: left;
+	padding-left: 30px;
 	font-size: 80%;
 	width: 250px;
 }
 
 nav
 {
-	padding: 15px;
-	border-radius: 15px 7px 15px 7px;
-	background-color: rgba(0,0,0,0.25);
-	width: 250px;
+	padding-right: 15px;
+	padding-top: 20px;
+	width: 6%;
+	border-radius: 15px 0px 15px 15px;
+	background-color: rgba(245,159,10, 0.9);
+	box-shadow: 0px 0px 10px orange;
+
+}
+
+
+
+#Structure
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+img
+{
+		box-shadow: 0px -1px 7px orange;
 }
 
 #Centre_de_page
 {
-	background: url('Images/Mauna_kea.jpg') center;
+	background: url('Images/Mauna_kea.jpg') center top no-repeat ;
+
 	background-size: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
+	width: 100%;
+}
+
+.Section
+{
+	margin-top: 20px;
+	margin: auto;
+}
+
+.Aside
+{
+	margin-top: 60px;
+	margin-right: 20px;
+}
+
+.Sommaire_photos
+{
+	margin-top: 8%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 100%;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+Footer
+{
+	background-color: rgba(245,159,10, 0.2);
+		box-shadow: 0px 0px 10px orange;
 }
 
 #Pied_de_page
-{
+{	
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 7%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -66,13 +119,6 @@ nav
 {
 	text-align: right;
 	padding-top: 120px;
+
 }
 
-#Sommaire_photos
-{
-	margin-top: 40px;
-	display: flex;
-	justify-content: space-around;
-	margin-left: 200px;
-	margin-right: 200px;
-}
