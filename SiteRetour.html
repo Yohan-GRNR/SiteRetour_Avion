@@ -20,6 +20,22 @@
 			<li>Mauai</li>
 			<li>Kawai'i</li>
 		</ul>
+
+		<Form method="post" action="traitement.php">
+
+			<p>
+			<label for="pseudo">Pseudo</label> 
+			<br/>
+			<input type="text" name="pseudo" id="pseudo" placeholder="Votre_pseudo" size="12" maxlength="12" autofocus/>
+			<br/><br/>
+			<label for="mdp">Mot de passe</label> 
+			<br/>
+			<input type="password" name="mdp" id="mdp" size="12" maxlength="12"/>
+			<br/> <br/>
+			<input type="submit" value="Se connecter" />
+
+			</p>
+		</Form>
 	</nav>
 
 	<div id="Centre_de_page">
@@ -30,12 +46,26 @@
 	</section>
 
 	<aside class="Aside">
-		<h1>À chaque île son thème:</h1>
-			<p>Honolulu: Surf & Building</p>
-			<p>Big Island: Volcan, Cratères & Étoiles</p>
-			<p>Mauai: Jardin botanique</p>
-			<p>Kawai'i:Océan & Canyone</p>
-		</ul>
+		<table>
+		<caption>À chaque île son thème:</caption>
+
+			<tr>
+				<td>Honolulu:</td>
+				<td>Surf & Building</td>
+			</tr>
+			<tr>
+				<td>Big Island: </td>
+				<td>Volcan, Cratères & Étoiles</td>
+			</tr>
+			<tr>
+				<td>Mauai: </td>
+				<td>Jardin botanique</td>
+			</tr>
+			<tr>
+				<td>Kawai'i: </td>
+				<td>Océan & Canyone</td>
+			</tr>
+		</table>
 	</aside>
 
 
@@ -60,6 +90,23 @@
 		</ul>
 		</div>
 
+		<form method="post" action="traitement.php">
+			<p>
+				<label for="note_satisfaction">Donnez nous notre avis sur ce forum.<br/>
+				0 site mal construit -> 10 site excellent</label>
+				<br/>1
+				<input type="range" name="note_satisfaction" id="note_satisfaction">
+				10
+				<br/>
+
+				<label for="sondage"> Des suggestions / questions ?</label>
+				<br/><br/>
+
+				<textarea name="sondage" id="sondage" rows="5" cols="40">Superbes site! Avez-vous vu des dauphins ?! </textarea>
+				<br/>
+				<input type="submit" value="Valider le Feedback" />
+			</p>
+		</form>
 		<h4 class="Copyright">Copyright Yohan Grenier - Tous droits réservés</h4>
 	</footer>
 
